@@ -1,0 +1,149 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background-color: #00a0c6;
+  font-family: 'Raleway', sans-serif;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.header-title strong {
+  background-color: #fff;
+  color: #00a0c6;
+}
+
+.header-subtitle {
+  color: #000;
+  font-size: 24px;
+  font-variant: small-caps;
+  font-weight: 100;
+}
+
+.main {
+  padding: 0  20px;
+}
+
+.infos {
+  text-align: center;
+}
+
+.infos-title {
+  color: #00a0c6;
+  font-size: 40px;
+  margin-top: 35px;
+}
+
+.infos-image {
+  border: 2px #d3d3d3;
+  border-style: ridge;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  padding: 10px;
+  width: 370px;
+}
+
+.infos-image img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.infos-text {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.contacts {
+  margin-top: 30px;
+}
+
+.contacts li:not(:first-child) {
+  margin-top: 10px;
+}
+
+.contacts-icon {
+  margin-right: 5px;
+}
+
+.contacts-info span {
+  display: inline-block;
+}
+
+.contacts-info span:nth-child(2) {
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+.contacts-link {
+  color: red;
+  display: inline-block;
+}
+
+.quote {
+  margin-top: 20px;
+}
+
+.quote-title {
+  font-weight: 700;
+}
+
+.quote-box {
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.about-section {
+  border-bottom: 1px dotted gray;
+  padding-bottom: 30px;
+}
+
+.about-section:not(:first-child) {
+  margin-top: 30px;
+}
+
+.about-title {
+  color: #00a0c6;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.about-type {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.about-desc {
+  margin-top: 30px;
+}
+
+.about-list {
+  list-style: disc;
+  margin-left: 30px;
+  margin-top: 30px;
+}
